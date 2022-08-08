@@ -1,0 +1,21 @@
+configDir: "config/"
+baseURL: 'http://doc.emanueletessore.com/'
+languageCode: 'en-us'
+title: 'SetoDoc'
+theme: 'm10c'
+params:
+  author: "Emanuele Tex Tessore"
+  description: "IT experiments documented and howto"
+  avatar: "/avatar.jpeg"
+  menu_item_separator: " - "
+  favicon: "/favicon.ico"
+  social:
+    - name: "Github"
+      icon: "github"
+      url: "https://github.com/setola"
+    - icon: "linkedin"
+      name: "Linkedin"
+      url: "https://www.linkedin.com/in/emanuele-tessore-02706924/"
+    - icon: "bitbucket"
+      name: "bitbucket"
+      url: "https://bitbucket.org/setola/"
