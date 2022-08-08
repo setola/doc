@@ -11,7 +11,7 @@ build:
 	@echo Generating Doc
 	@echo -------------------------------
 	@git submodule init && git submodule sync && git submodule update
-	@docker run -u "$$(id -u):$$(id -g)" --rm -it -v ${DIR}:/src -w /src/SetoDoc "${DOCKER_IMAGE}"
+	@docker run -u "$$(id -u):$$(id -g)" --rm -v ${DIR}:/src -w /src/SetoDoc "${DOCKER_IMAGE}"
 
 serve:
 	@echo Serving Doc
