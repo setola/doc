@@ -5,7 +5,7 @@ title: 'SetoDoc'
 theme: 'm10c'
 params:
   author: "Emanuele Tex Tessore"
-  description: "IT experiments documented and howto"
+  description: "IT experiments, documentation, troubleshooting and howto"
   avatar: "/avatar.jpeg"
   menu_item_separator: " - "
   favicon: "/favicon.ico"

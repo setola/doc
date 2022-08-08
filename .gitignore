@@ -8,5 +8,6 @@ hugo.exe
 hugo.darwin
 hugo.linux
 
+/src/*/.hugo_build.lock
 ### PHPStorm config
 .idea
