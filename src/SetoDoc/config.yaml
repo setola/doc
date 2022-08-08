@@ -1,5 +1,5 @@
 configDir: "config/"
-baseURL: 'http://doc.emanueletessore.com/'
+baseURL: 'https://doc.emanueletessore.com/'
 languageCode: 'en-us'
 title: 'SetoDoc'
 theme: 'm10c'
