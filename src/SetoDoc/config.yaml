@@ -3,10 +3,11 @@ baseURL: 'https://doc.emanueletessore.com/'
 languageCode: 'en-us'
 title: 'SetoDoc'
 theme: 'm10c'
+disqusShortname: setola
 params:
   author: "Emanuele Tex Tessore"
   description: "IT experiments, documentation, troubleshooting and howto"
-  avatar: "/avatar.jpeg"
+  avatar: "/spaceinvaders-videogames.gif"
   menu_item_separator: " - "
   favicon: "/favicon.ico"
   social:
