@@ -20,3 +20,18 @@ params:
     - icon: "bitbucket"
       name: "bitbucket"
       url: "https://bitbucket.org/setola/"
+
+menu:
+  main:
+    - name: Home
+      identifier: home
+      weight: 10
+      url: /
+    - name: About
+      identifier: about
+      weight: 20
+      url: https://www.emanueletessore.com/about/
+    - name: Resume
+      identifier: resume
+      weight: 30
+      url: https://cv.emanueletessore.com
