@@ -2,10 +2,14 @@
 title: "K3S in LXC"
 date: 2022-07-06T10:35:23Z
 draft: false
+tags: ['Kubernetes', 'LXC', 'Proxmox']
+categories: ['howto', 'Kubernetes']
 ---
 
 ## Configure host
+
 on Proxmox host
+
 ```bash 
 sudo sysctl vm.swappiness=0
 sudo swapoff -a
@@ -16,7 +20,9 @@ sudo sed -i 's/#net.ipv6.conf.all.forwarding=1/net.ipv6.conf.all.forwarding=1/g'
 ```
 
 ## Containers
+
 Create an LXC container in the Proxmox
+
 * Uncheck `unprivileged container`
 * In memory, set swap to 0
 
@@ -45,31 +51,38 @@ reboot
 ## K3S Install
 
 on first node:
+
 ```bash 
 curl -sfL https://get.k3s.io | K3S_TOKEN=asdlalla sh -s - server --cluster-init
 ```
 
 other nodes:
+
 ```bash
 curl -sfL https://get.k3s.io | sh -s - server --server https://192.168.82.20:6443 --token asdlalla
 ```
 
 ## Kubectl autocomlete
+
 ```bash
 kubectl completion bash > /usr/share/bash-completion/completions/kubectl
 ```
 
 ## Enable ip_forward for loadbalancer service
+
 Change the DeamonSet svclb-traefik by adding this to the **pod** (beware, not the containers)
+
 ```yaml
       securityContext:
         sysctls:
-        - name: net.ipv4.ip_forward
-          value: "1"
+          - name: net.ipv4.ip_forward
+            value: "1"
 ```
 
 ## Daemon Customization
+
 on control plane nodes
+
 ```bash
 nano /etc/systemd/system/k3s.service
 ```
@@ -91,6 +104,7 @@ systemctl restart k3s
 ```
 
 on workers nodes
+
 ```bash
 nano /etc/systemd/system/k3s-agent.service
 ```
@@ -107,6 +121,7 @@ systemctl restart k3s-agent.service
 ```
 
 ## Resources
+
 https://davegallant.ca/blog/2021/11/14/running-k3s-in-lxc-on-proxmox/
 https://github.com/k3s-io/k3s/issues/2233
 https://github.com/kubernetes/kubernetes/issues/92266

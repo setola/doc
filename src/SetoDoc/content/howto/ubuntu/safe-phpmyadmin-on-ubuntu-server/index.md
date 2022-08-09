@@ -149,7 +149,7 @@ and then tell apache to use https protocol and redirect from http to https.
 ```
 
 To remove the boring Windows warning about certificate "untrustability", wich affects also chrome, look at this screen:
-![IMG_08022013_173047](/howto/ubuntu/safe-phpmyadmin-on-ubuntu-server/IMG_08022013_173047.png)
+![IMG_08022013_173047](IMG_08022013_173047.png)
 
 ### Filter by IP
 
