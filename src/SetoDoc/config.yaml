@@ -3,7 +3,7 @@ baseURL: 'https://doc.emanueletessore.com/'
 languageCode: 'en-us'
 title: 'SetoDoc'
 theme: 'm10c'
-disqusShortname: setola
+disqusShortname: emanueletessore
 params:
   author: "Emanuele Tex Tessore"
   description: "IT experiments, documentation, troubleshooting and howto"
