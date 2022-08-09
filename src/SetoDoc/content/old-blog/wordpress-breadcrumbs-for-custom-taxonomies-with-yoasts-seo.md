@@ -3,6 +3,7 @@ title: 'WordPress: breadcrumbs for custom taxonomies with Yoast''s SEO'
 date: Tue, 12 Jun 2012 10:20:30 +0000
 draft: false
 tags: ['breadcrumbs', 'PHP', 'wordpress', 'YOAST seo plugin']
+disqus_url: http://www.emanueletessore.com/wordpress-breadcrumbs-for-custom-taxonomies-with-yoasts-seo/
 ---
 
 [**WordPress SEO**](http://yoast.com/wordpress/seo/ "WordPress SEO Plugin Homepage") is a very good plugin developed by **Yoast**. 

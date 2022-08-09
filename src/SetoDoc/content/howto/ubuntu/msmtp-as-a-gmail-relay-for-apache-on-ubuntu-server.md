@@ -3,6 +3,7 @@ title: 'How to replace Sendmail with Gmail smtp on Ubuntu server'
 date: Sun, 09 Dec 2012 20:56:08 +0000
 draft: false
 tags: ['PHP', 'Server Administration']
+disqus_url: http://www.emanueletessore.com/how-to-configure-msmtp-as-a-gmail-relay-on-ubuntu-server/
 ---
 
 Today my goal was to be able to **send mails from PHP** from my web-server **using Gmail smtp**.

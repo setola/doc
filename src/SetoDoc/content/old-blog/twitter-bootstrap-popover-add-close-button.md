@@ -3,6 +3,7 @@ title: 'How to add a close button to Bootstrap Popover'
 date: Wed, 26 Mar 2014 10:16:45 +0000
 draft: false
 tags: ['JavaScript', 'twitter bootstrap']
+disqus_url: http://www.emanueletessore.com/twitter-bootstrap-popover-add-close-button/
 ---
 
 Recently I had to build a 'smart booking form' for a group of hotels. The website is made on Twitter's Bootstrap and is fully responsive. 

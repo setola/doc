@@ -3,6 +3,7 @@ title: 'Website Development Workflow'
 date: Sun, 08 Jul 2012 21:33:15 +0000
 draft: false
 tags: ['Project Management', 'website development']
+disqus_url: http://www.emanueletessore.com/website-development-workflow/
 ---
 
 **Developing a website** for a customer could not be so easy and immediate as you think.

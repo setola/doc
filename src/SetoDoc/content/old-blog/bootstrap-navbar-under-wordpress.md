@@ -3,6 +3,7 @@ title: 'Bootstrap Navbar under Wordpress'
 date: Sun, 23 Sep 2012 09:46:45 +0000
 draft: false
 tags: ['PHP', 'twitter bootstrap', 'wordpress']
+disqus_url: http://www.emanueletessore.com/bootstrap-navbar-under-wordpress/
 ---
 
 If you're fallen in love with **Twitter Bootstrap** and **WordPress** as I am, you'll probably need to **develop a theme

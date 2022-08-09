@@ -3,6 +3,7 @@ title: 'Eclipse: WordPress Code Completion'
 date: Sun, 14 Oct 2012 14:18:50 +0000
 draft: false
 tags: ['eclipse', 'PHP', 'wordpress']
+disqus_url: http://www.emanueletessore.com/eclipse-wordpress-code-completion/
 ---
 
 **WordPress** is one of the most known and used CMS in the web.

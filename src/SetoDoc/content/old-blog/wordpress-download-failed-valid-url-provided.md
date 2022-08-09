@@ -3,6 +3,7 @@ title: 'Wordpress: Download failed. A valid URL was not provided.'
 date: Thu, 16 Jan 2014 15:48:57 +0000
 draft: false
 tags: ['PHP', 'wordpress']
+disqus_url: http://www.emanueletessore.com/wordpress-download-failed-valid-url-provided/
 ---
 
 Some days ago I've updated my **WordPress** to the new 3.8 version. 

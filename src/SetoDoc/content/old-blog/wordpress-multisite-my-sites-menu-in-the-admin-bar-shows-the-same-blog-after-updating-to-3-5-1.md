@@ -3,6 +3,7 @@ title: 'WordPress multisite: My Sites menu in the admin bar shows the same blog 
 date: Wed, 06 Feb 2013 16:58:33 +0000
 draft: false
 tags: ['PHP', 'w3 total cache', 'wordpress']
+disqus_url: http://www.emanueletessore.com/wordpress-multisite-my-sites-menu-in-the-admin-bar-shows-the-same-blog-after-updating-to-3-5-1/
 ---
 
 Today I've noticed a little bug come out on my **WordPress network** running on a **Wordpress Multisite** configuration.

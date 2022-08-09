@@ -3,6 +3,7 @@ title: 'Slideshow in WordPress'
 date: Fri, 25 May 2012 09:35:33 +0000
 draft: false
 tags: ['PHP', 'slideshow', 'wordpress']
+disqus_url: http://www.emanueletessore.com/slideshow-wordpress/
 ---
 
 If you're planning to build a **showcase website with WordPress** you'd probably insert at least in the home page

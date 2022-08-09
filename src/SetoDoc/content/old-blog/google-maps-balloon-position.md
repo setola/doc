@@ -3,6 +3,7 @@ title: 'Google Maps balloon position error'
 date: Sat, 05 May 2012 19:24:17 +0000
 draft: false
 tags: ['google maps', 'JavaScript']
+disqus_url: http://www.emanueletessore.com/google-maps-balloon-position/
 ---
 
 If you're working on a website which needs a map wrapped in a really low element, you'll probably have some issue with
