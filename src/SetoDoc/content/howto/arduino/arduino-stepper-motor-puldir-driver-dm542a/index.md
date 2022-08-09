@@ -3,6 +3,7 @@ title: 'Arduino and stepper motor with pul\dir driver (DM542A)'
 date: Thu, 26 Dec 2013 20:02:39 +0000
 draft: false
 tags: ['Arduino', 'DM542A', 'stepper']
+categories: ['Howto', 'Arduino']
 disqus_url: http://www.emanueletessore.com/arduino-stepper-motor-puldir-driver-dm542a/
 ---
 

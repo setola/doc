@@ -2,7 +2,8 @@
 title: 'Safe PHPMyAdmin on Ubuntu Server'
 date: Wed, 13 Feb 2013 11:20:02 +0000
 draft: false
-tags: ['Server Administration']
+tags: ['Ubuntu', 'PHPMyAdmin', Server-Administration]
+categories: ['Howto', 'Ubuntu']
 disqus_url: http://www.emanueletessore.com/safe-phpmyadmin-on-ubuntu-server/
 ---
 
